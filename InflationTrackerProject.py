@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 #Loading CSV file
 def load_csv():
-    df = pd.read_csv("C:\\Users\\Lenovo\\Downloads\\inflation_tracker_data.csv")
+    df = pd.read_csv("write your csv file location")
     print("CSV file successfully loaded.")
     return df
 
@@ -185,3 +185,4 @@ def run_interface(df_original):
 #Starting the program
 df_main = load_csv()
 run_interface(df_main)
+
